@@ -1,4 +1,5 @@
 import React from 'react';
+import BudgetChart from '../BudgetChart/BudgetChart'
 
 function HomePage() {
   return (
@@ -61,13 +62,8 @@ function HomePage() {
                     because they know it is all good and accounted for.
                 </p>
             </div>
-    
-            <div className="text-box">
-                <h1>Chart</h1>
-                <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
-                </p>
-            </div>
+
+            <BudgetChart/>
 
         </div>
 
